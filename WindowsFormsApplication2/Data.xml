@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <cases count ="4">
+      <case>
+        <name>Увеличить плотность пикселей внутри блока</name>
+        <steps count="3">
+          <step>              1. Клик сюда          </step>
+          <step>              2. Выбрать в дропдауне "Удалить элемент"          </step>          
+          <step>              3. Нажать ОК          </step>
+        </steps>
+        <expectedResult>  Отправка запроса на сервер для удаления элемента из базы данных </expectedResult>
+        <severity> 9/10</severity>
+        <priority> 2 </priority>
+      </case>
+    </cases>
+</root>

@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<testDocumentation>
+  <testSuites>
+    <testSuite1 count ="4"> Процесс заказа
+    <case>
+      <name>Увеличить плотность пикселей внутри блока</name>
+      <steps count="3">
+        <step>              1. Клик сюда          </step>
+        <step>              2. Выбрать в дропдауне "Удалить элемент"          </step>
+        <step>              3. Нажать ОК          </step>
+      </steps>
+      <expectedResult>  Отправка запроса на сервер для удаления элемента из базы данных </expectedResult>
+      <actualResult>Error 502 </actualResult>
+    </case>
+
+    <case>
+      <name>Уменьшить плотность пикселей внутри блока</name>
+      <steps count="3">
+        <step>              1. Клик сюда          </step>
+        <step>              2. Выбрать в дропдауне "Удалить элемент"          </step>
+        <step>              3. Нажать ОК          </step>
+      </steps>
+      <expectedResult>  Отправка запроса на сервер для удаления элемента из базы данных </expectedResult>
+      <actualResult>Error 502 </actualResult>
+    </case>
+
+    <case>
+      <name>Оставить плотность пикселей внутри блока</name>
+      <steps count="3">
+        <step>              1. Клик сюда          </step>
+        <step>              2. Выбрать в дропдауне "Удалить элемент"          </step>
+        <step>              3. Нажать ОК          </step>
+      </steps>
+      <expectedResult>  Отправка запроса на сервер для удаления элемента из базы данных </expectedResult>
+      <actualResult>Error 502 </actualResult>
+    </case>
+
+    <case>
+      <name>Убрать плотность пикселей внутри блока</name>
+      <steps count="3">
+        <step>              1. Клик сюда          </step>
+        <step>              2. Выбрать в дропдауне "Удалить элемент"          </step>
+        <step>              3. Нажать ОК          </step>
+      </steps>
+      <expectedResult>  Отправка запроса на сервер для удаления элемента из базы данных </expectedResult>
+      <actualResult>Error 502 </actualResult>
+    </case>
+
+    </testSuite1>
+    <testSuite2  count ="4"> Процесс отправки почты
+      
+        <case>
+          <name>Увеличить плотность пикселей внутри блока</name>
+          <steps count="3">
+            <step>              1. Клик сюда          </step>
+            <step>              2. Выбрать в дропдауне "Удалить элемент"          </step>
+            <step>              3. Нажать ОК          </step>
+          </steps>
+          <expectedResult>  Отправка запроса на сервер для удаления элемента из базы данных </expectedResult>
+          <actualResult>Error 502 </actualResult>
+        </case>
+
+        <case>
+          <name>Уменьшить плотность пикселей внутри блока</name>
+          <steps count="3">
+            <step>              1. Клик сюда          </step>
+            <step>              2. Выбрать в дропдауне "Удалить элемент"          </step>
+            <step>              3. Нажать ОК          </step>
+          </steps>
+          <expectedResult>  Отправка запроса на сервер для удаления элемента из базы данных </expectedResult>
+          <actualResult>Error 502 </actualResult>
+        </case>
+
+        <case>
+          <name>Оставить плотность пикселей внутри блока</name>
+          <steps count="3">
+            <step>              1. Клик сюда          </step>
+            <step>              2. Выбрать в дропдауне "Удалить элемент"          </step>
+            <step>              3. Нажать ОК          </step>
+          </steps>
+          <expectedResult>  Отправка запроса на сервер для удаления элемента из базы данных </expectedResult>
+          <actualResult>Error 502 </actualResult>
+        </case>
+
+        <case>
+          <name>Убрать плотность пикселей внутри блока</name>
+          <steps count="3">
+            <step>              1. Клик сюда          </step>
+            <step>              2. Выбрать в дропдауне "Удалить элемент"          </step>
+            <step>              3. Нажать ОК          </step>
+          </steps>
+          <expectedResult>  Отправка запроса на сервер для удаления элемента из базы данных </expectedResult>
+          <actualResult>Error 502 </actualResult>
+        </case>
+    
+    </testSuite2>
+  </testSuites>
+</testDocumentation>

@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<CheckList>
+  
+  <Part>
+    Визуальная часть.
+    <UnitCheck>
+    <State>+</State>
+    <Summury>поломанные блоки, не состыковки цвета;</Summury>
+  </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>точность соответствия макета;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>проверяем сетка (вертикальные/горизонтальные выравнивания);</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>проверяем в разных разрешениях:</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>не должно ничего ломаться;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>не должна появляться горизонтальная прокрутка для оговоренных в ТЗ разрешениях;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>не должны резко обрываться фоны при больших разрешениях.</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>проверяем масштабирование страницы (диапазон 75-150%) страница должна выглядеть без визуальных косяков;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>ресайз textarea не должен ломать вёрстку;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>нормально ли подсвечиваются поля в фокусе;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>нормально ли подсвечиваются поля с ошибками.</Summury>
+    </UnitCheck>
+  </Part>
+  
+  <Part>
+    Доступность.
+    <UnitCheck>
+      <State>+</State>
+      <Summury>Выделение текста в текстовых блоках;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>Проверка кликабельных элементов (ссылки/кнопки);</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>устанавливается ли фокус в поля форм;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>Соответствие курсора элементу</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>Подсказки для неочевидных кликабельных элементов</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>лого на главной ссылкой быть не должно, на всех внутренних должно;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>проверка печати страницы</Summury>
+    </UnitCheck>
+  </Part>
+  
+  <Part>
+    Расширяемость.
+    <UnitCheck>
+      <State>+</State>
+      <Summury>Увеличение/уменьшение кол-ва контента в блоках</Summury>
+    </UnitCheck>
+  </Part>
+  
+  <Part>
+    404-е запросы..
+    <UnitCheck>
+      <State>+</State>
+      <Summury>Проверка на 404-е запросы</Summury>
+    </UnitCheck>
+  </Part>
+  
+  <Part>
+    Layout
+    <UnitCheck>
+      <State>+</State>
+      <Summury>проверка Javascript на ошибки (firebug);</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>работает ли Javascript функционал согласно ТЗ;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>не остались ли в коде console.log().</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>кодировка должна совпадать с указанной в ТЗ;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>не должно остаться закомментированных участков в HTML, CSS, Javascript.</Summury>
+    </UnitCheck>
+  </Part>
+  
+  <Part>
+    Кроссплатформенность/кроссбраузерность.
+    <UnitCheck>
+      <State>+</State>
+      <Summury>визуальная часть;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>доступность;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>функциональность.</Summury>
+    </UnitCheck>
+  </Part>
+  
+  <Part>
+    Для линейки IE дополнительно:
+    <UnitCheck>
+      <State>+</State>
+      <Summury>масштаб страницы;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>расширяемость;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>рамки у элементов в фокусе;</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>Javascript ошибки.</Summury>
+    </UnitCheck>
+  </Part>
+  
+  <Part>
+    Для мобильных устройств дополнительно:
+    <UnitCheck>
+      <State>+</State>
+      <Summury>вертикальная ориентация</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>горизонтальная ориентация</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>особое внимание доступности и функциональности</Summury>
+    </UnitCheck>
+    <UnitCheck>
+      <State>+</State>
+      <Summury>Проверка ретины</Summury>
+    </UnitCheck>
+  </Part>
+</CheckList>
